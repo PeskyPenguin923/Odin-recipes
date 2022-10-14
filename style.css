@@ -4,26 +4,49 @@ body {
     color: white;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
- h1 {
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: rgb(39, 40, 43);
+}
+
+h1 {
     color: white;
+    margin-bottom: 20px;
+    margin-left: 280px;
+ }
+
+ p {
+    padding: 20px;
+    border: 20px;
  }
 
  div {
-    background-color: #181818;
-    height: 300px;
-    width: 300px;
+    background-color: transparent;
+    height: auto;
+    width: 440px;
+    padding: 20px;
+    border: 20px;
+    margin: 0 auto;
  }
 
+a {
+    margin: 280px;
+    
+}
 
 .preview {
     height: auto;
-    width: 250px;
+    width: 450px;
 }
 
 .preview.cookies{
-    height: 250px;
-    width: auto;
+    height: 400px;
+    width: 440px;
+    
 }
 .main-img {
     height: auto;
@@ -32,4 +55,5 @@ body {
 
 .link {
     color: rgb(32, 32, 240);
+
 }
